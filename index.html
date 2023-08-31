@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Cheat-Sheet</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+</head>
+<body>
+    <!-- Add a navigation bar to search for other HTML tags other than the table tag, for example the heading tags (h1, h2, h3, h4, h5 and h6)-->
+    <!--Practice making a breadcrumb navigation bar as a secondary means of navagation. Maybe add to the side of the screen?-->
+    <!--Try adding a form with a input of radio to let the user select if they want the breadcrumb bar.-->
+    <div class="navigation">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">HTML/CSS</a></li>
+        <li><a href="">Tables</a></li>
+        <li><a href="">Headings</a></li>
+        <li><a href="">Anchor</a></li>
+        <li><a href="">Buttons</a></li>
+        <li><a href="">Suggustions</a></li>
+      </ul>
+    </div>
+    <h1>HTML Table Reference</h1>
+    <table class="tableOne">
+        <h2 class="title">Table Tags</h2>
+      <thead>
+        <tr>
+            <th colspan="1">Tag</th>
+            <th colspan="1">Name</th>
+            <th colspan="1">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>&lt;table&gt;</td>
+              <td>Table</td>
+              <td class="description">The <span class="highlight">&lt;table&gt;</span> HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.</td>
+          </tr>
+          <tr>
+            <td>&lt;thead&gt;</td>
+            <td>Table Head</td>
+            <td class="description">The &lt;td&gt; HTML element defines a cell as the header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.</td>
+          </tr>
+            <td>&lt;tbody&gt;</td>
+            <td>Table Body</td>
+            <td class="description">The <span class="highlight">&lt;tbody&gt;</span> HTML element encapsulates a set of table rows (<span class="highlight">&lt;tr&gt;</span> elements), indicating that they comprise the body of the table (<span class="highlight">&lt;table&gt;</span></span>).</td>
+          </tr>
+          <tr>
+            <td>&lt;tr&gt;</td>
+            <td>Table Row</td>
+            <td class="description">The <span class="highlight">&lt;tr&gt;</span> HTML element defines a row of cells in a table. The row's cells can then be established using a mix of <span class="highlight">&lt;td&gt;</span> (data cell) and <span class="highlight">&lt;th&gt;</span> (header cell) elements.</td>
+          </tr>
+          <tr>
+          <tr>
+            <td>&lt;td&gt;</td>
+            <td>Table Data</td>
+            <td class="description"> The <span class="highlight">&lt;td&gt;</span> HTML element defines a cell of a table that contains data. It participates in the table model.</td>
+          </tr>
+          <tr>
+            <td>&lt;tfoot&gt;</td>
+            <td>Table Foot</td>
+            <td class="description">The <span class="highlight">&lt;tfoot&gt;</span> HTML element defines a set of rows summarizing the columns of the table.</td>
+          </tr>
+      </tbody>
+    </table>
+    <table class="tableTwo">
+        <h2 class="title">Table Attributes</h2>
+        <thead>
+            <th colspan="1">Attribute</th>
+            <th colspan="1">Name</th>
+            <th colspan="1">Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>colspan</td>
+                <td>Column Span</td>
+                <td class="description">Colspan defines how many columns the <span class="highlight">&lt;tbody&gt;</span> should span.</td>
+            </tr>
+            <tr>
+                <td>rowspan</td>
+                <td>Row Span</td>
+                <td class="description">Rowspan defines how many rows the<span class="highlight">&lt;tbody&gt;</span> should span.</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="examples">
+        <h2 class="title">Exmaple Images</h2>
+        <img src="./resources/images/Screenshot 2023-08-29 at 17.55.00.png" alt="" height="320" width="720">
+        <img src="./resources/images/Screenshot 2023-08-29 at 17.55.19.png" alt="" height="320" width="720">
+        <p>Images from MDN Web Docs click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" id="external-link">HERE</a> to see reference.</p>
+    </div>
+    <footer>
+      <div class="footer">
+        <ul>
+          <li><a href="">example@gmail.com</a></li>
+          <li><a href="">(123) 456 789</a></li>
+          <li><a href="">Example Address</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
